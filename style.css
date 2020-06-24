@@ -1,0 +1,141 @@
+body {
+  font-family: georgia,"Times New Roman",serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #98B9C4;
+}
+#page{
+  width: 80%;
+  margin: auto;
+  background-color: #FFFDD1;
+}
+#masthead{
+  font-family: Verdana,tahoma, sans-serif;
+  height: 300px;
+  background-image: url('images/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* background-image: url (https://cei.org/sites/default/files/ThinkstockPhotos-637982150.jpg) */
+#masthead h1{
+  text-align: center;
+  text-transform:uppercase;
+  color: white;
+}
+#flex ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+#masthead a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#masthead a:visited{
+  color: yellow;
+}
+#masthead a:hover{
+  color:maroon;
+}
+figure img{
+  padding: 10px;
+  border-radius: 50%;
+  float: right;
+}
+h1{
+  font-family: Helvetica,calibri,sans-serif;
+  text-align: center;
+  color: navy;
+  column-span: all;
+}
+h2{
+  font-family: Helvetica,calibri,sans-serif;
+  text-align: center;
+  color: navy;
+  column-span: all;
+}
+h3{
+  font-family: Helvetica,calibri,sans-serif;
+  text-align: center;
+  color: navy;
+}
+section ul{
+ list-style-type:circle;
+}
+section{
+  margin: 20px;
+  text-align: justify;
+}
+section a{
+  text-decoration: none;
+}
+#section-0{
+  column-count: 2;
+  border: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: silver;
+  column-rule: solid thin gray;
+  padding: 10px;
+  text-transform: uppercase;
+  color: purple;
+  font-family: Verdana,tahoma, sans-serif;
+}
+#section-1{
+  column-count: 2;
+  border: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: silver;
+  column-rule: solid thin gray;
+  padding: 10px;
+}
+#section-2{
+  column-count: 2;
+  border: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: silver;
+  column-rule: solid thin gray;
+  padding: 10px;
+}
+#section-3{
+  column-count: 2;
+  border: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: silver;
+  column-rule: solid thin gray;
+  padding: 10px;
+}
+#section-4{
+  column-count: 2;
+  border: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: silver;
+  column-rule: solid thin gray;
+  padding: 10px;
+}
+#section-5{
+  column-count: 2;
+  border: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: silver;
+  column-rule: solid thin gray;
+  padding: 10px;
+}
+footer{
+  font-family: tahoma, arial, sans-serif;
+  color: white;
+  text-align: center;
+  background-color: #4853f7;
+  width: 100%
+  margin: 10px;
+  clear: both;
+}
+footer a{
+  color: white;
+}
